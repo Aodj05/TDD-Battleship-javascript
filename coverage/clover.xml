@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654444212399" clover="3.2.0">
-  <project timestamp="1654444212399" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="19" coveredelements="19" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+<coverage generated="1654450596397" clover="3.2.0">
+  <project timestamp="1654450596397" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4" elements="24" coveredelements="24" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="shipMethods.js" path="F:\TOP\odin-javascript\TDD-Battleship-javascript\src\shipMethods.js">
-      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
-      <line num="4" count="11" type="stmt"/>
-      <line num="5" count="17" type="stmt"/>
-      <line num="7" count="17" type="stmt"/>
-      <line num="8" count="36" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="17" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="8" type="stmt"/>
-      <line num="15" count="3" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="4" count="13" type="stmt"/>
+      <line num="5" count="23" type="stmt"/>
+      <line num="7" count="23" type="stmt"/>
+      <line num="8" count="52" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="23" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="9" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="26" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

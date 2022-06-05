@@ -9,7 +9,7 @@ function checkForShip (player, coords) {
   })[0];
 
   if (shipPresent) {
-    return true;
+    return ship;
    }
   }
   return false;
@@ -20,7 +20,11 @@ function damageShip (ship, coords) {
 }
 
 function fire (player, coords) {
+  var ship = checkForShip(player, coords);
 
+  if (ship) {
+  	damageShip(ship, coords);
+  }
 }
 
 module.exports.checkForShip = checkForShip;
