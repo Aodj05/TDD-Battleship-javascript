@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654450596397" clover="3.2.0">
-  <project timestamp="1654450596397" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4" elements="24" coveredelements="24" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+<coverage generated="1654472139195" clover="3.2.0">
+  <project timestamp="1654472139195" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6" elements="34" coveredelements="34" complexity="0" loc="22" ncloc="22" packages="1" files="2" classes="2"/>
+    <file name="gameInstance.js" path="F:\TOP\odin-javascript\TDD-Battleship-javascript\src\gameInstance.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
     <file name="shipMethods.js" path="F:\TOP\odin-javascript\TDD-Battleship-javascript\src\shipMethods.js">
       <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
-      <line num="4" count="13" type="stmt"/>
-      <line num="5" count="23" type="stmt"/>
-      <line num="7" count="23" type="stmt"/>
-      <line num="8" count="52" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="23" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="9" type="stmt"/>
+      <line num="4" count="14" type="stmt"/>
+      <line num="5" count="24" type="stmt"/>
+      <line num="7" count="24" type="stmt"/>
+      <line num="8" count="53" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="24" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="10" type="stmt"/>
       <line num="15" count="4" type="stmt"/>
-      <line num="19" count="2" type="stmt"/>
-      <line num="23" count="2" type="stmt"/>
-      <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="30" count="1" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="30" count="2" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

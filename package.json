@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch" : "jest --watch ./src ./"
   },
   "keywords": [],
   "author": "",
