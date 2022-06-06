@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654472139195" clover="3.2.0">
-  <project timestamp="1654472139195" name="All files">
+<coverage generated="1654549931878" clover="3.2.0">
+  <project timestamp="1654549931878" name="All files">
     <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6" elements="34" coveredelements="34" complexity="0" loc="22" ncloc="22" packages="1" files="2" classes="2"/>
     <file name="gameInstance.js" path="F:\TOP\odin-javascript\TDD-Battleship-javascript\src\gameInstance.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

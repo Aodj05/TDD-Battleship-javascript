@@ -35,9 +35,25 @@ describe('gameInstance', function () {
           };
         });
 
-        it('should returne false at game end', function () {
+        it('should return false at game end', function () {
           const actual = takeTurn(player, guess);
           expect(actual).toBeFalsy;
+        });
+    });
+    function saveGame (callback) {
+        setTimeout(function () {
+            callback();
+        }, 1000);
+    }
+
+    describe('saveGame', function() {
+        it('should update save state', function (done) {
+            var status = 'game not saved...';
+            saveGame(function () {
+                status = 'game saved!';
+                expect(status).toEqual('game saved!');
+                done();
+            });
         });
     });
 });

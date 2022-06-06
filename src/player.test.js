@@ -104,7 +104,7 @@ describe('playerMethods', function () {
         expect(handler).toThrow(Error);
         expect(handler).toThrow('Please specify direction!');
     });
-
+});
 
 describe('computerPlay', function () {
     describe('computerFire', function () {
@@ -119,12 +119,6 @@ describe('computerPlay', function () {
                   }
                 ]
             };
-        });
-
-        it('should aim at random location', function () {
-          const ship = player.ships[0];
-
-          computerFire();
         });
     });
 });
