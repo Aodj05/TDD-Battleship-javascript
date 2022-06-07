@@ -1,5 +1,12 @@
 const game = require('./gameInstance.js');
 
+describe('gameInstance',  () => {
+    it('returns a function', () => {
+        const board = require('./gameInstance').gameInstance;
+        expect(typeof board).toBe('function');
+    });
+});
+
 describe('gameInstance', function () {
     describe('checkGameState', function () {
         const checkGameState = require('./gameInstance').checkGameState;

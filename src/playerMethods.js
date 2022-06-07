@@ -1,7 +1,7 @@
 const checkForShip = require('./shipMethods.js').checkForShip;
 
 const player = (cpu = false) => {
-    const board = gameBoard();
+    const board = gameInstance();
     const attackList = [];
     const flatList = () => attackList.flatMap((coord) => coords.join(''));
     const addAttack = (coord) => attackList.push(coord);
