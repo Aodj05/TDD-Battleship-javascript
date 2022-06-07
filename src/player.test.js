@@ -1,9 +1,9 @@
-const player = require('./playerMethods');
+const Player = require('./playerMethods');
 
 describe("Player", () => {
-    it('returns an object', () => {
-        const player = player();
-        expect(typeof player).toBe('object');
+    it('returns a function', () => {
+        var player = require('./playerMethods').player;
+        expect(typeof player).toBe('function');
     });
 });
 

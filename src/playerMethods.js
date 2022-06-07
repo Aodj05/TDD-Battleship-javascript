@@ -12,7 +12,7 @@ const player = (cpu = false) => {
         addAttack(coord);
         return true;
     };
-}
+};
 
 function validLocation (player, coords) {
     const x = coords[0];
