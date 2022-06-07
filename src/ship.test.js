@@ -1,4 +1,14 @@
 const ship = require('./shipMethods');
+const shipFactory = require('./shipMethods');
+
+describe("ShipFactory", () => {
+	const shipFactory = require('./shipMethods').shipFactory;
+	it("returns an object", () => {
+		const ship = shipFactory([[0, 0]]);
+		expect(typeof ship).toBe('object')
+	});
+
+});
 
 describe('checkForShip', function () {
   const checkForShip = require('./shipMethods').checkForShip;

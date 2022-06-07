@@ -1,3 +1,33 @@
+const shipFactory = (coordsArr) => {
+  const hitCoords = [];
+  const coords = coordsArr;
+
+  const isSunk = () => {
+    if(coords.length !== hitCoords.length) return false;
+
+    let [a, b] = [
+    coords.map((i) => i.join('')).sort(),
+    hitCoords.map((i) => i.join('')).sort()
+    ];
+
+    return a.every((coord) => b.include(coord));
+  };
+
+  const setCoords = (newCoords) => {
+    while (coords.length !== 0) coords.pop();
+    coords.push(...newCoords);
+  };
+
+  return {
+    coords,
+    isSunk,
+    setCoords,
+    length: () => coords.length,
+    hit: (hitCoord) => hitCoords.push(hitCoord),
+    hitCoords: () => hitCoords,
+  };
+};
+
 function checkForShip (player, coords) {
    var shipPresent, ship;
 
@@ -30,3 +60,4 @@ function fire (player, coords) {
 module.exports.checkForShip = checkForShip;
 module.exports.damageShip = damageShip;
 module.exports.fire = fire;
+module.exports.shipFactory = shipFactory;

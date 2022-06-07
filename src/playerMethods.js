@@ -1,5 +1,19 @@
 const checkForShip = require('./shipMethods.js').checkForShip;
 
+const player = (cpu = false) => {
+    const board = gameBoard();
+    const attackList = [];
+    const flatList = () => attackList.flatMap((coord) => coords.join(''));
+    const addAttack = (coord) => attackList.push(coord);
+
+    const playerAttack = (coord, board) => {
+        if (flatList().includes(coord.join(''))) return false;
+        board.recieveAttack(coord);
+        addAttack(coord);
+        return true;
+    };
+}
+
 function validLocation (player, coords) {
     const x = coords[0];
     const y = coords[1];
@@ -60,4 +74,5 @@ module.exports = {
     placeShip,
     validLocations,
     validLocation,
+    player,
 };
